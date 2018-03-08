@@ -12,7 +12,7 @@
         "infoColor": "#3d8eb9",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
+        "titleFont": "Lora",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
@@ -21,11 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#044f40",
+        "#06616e",
+        "#096673",
+        "#0e9712",
+        "#1c6b76",
         "#d9d9d9",
-        "#28262b",
-        "#f48811",
-        "#222222",
-        "#5d409f"
+        "#28262b"
       ]
     },
     "versionFirst": "4.5.2",
@@ -48,12 +50,12 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": false,
+            "logo": true,
             "showBrand": true,
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#282828",
             "fontSize": "0.95",
             "fontName": {
@@ -64,7 +66,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobkatithelegacy.co.za/service\">SERVICE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://www.mokatithelegacy.co.za/contact\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.mokatithelegacy.co.za/contact\">Email</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.mokatithelegacy.co.za\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobkatithelegacy.co.za/service\">SERVICE</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://www.mokatithelegacy.co.za/contact\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">CONTACT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.mokatithelegacy.co.za/contact\">Email</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -173,7 +175,7 @@
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true,
+            "showButtons": false,
             "paddingTop": "2",
             "paddingBottom": "3",
             "columns": "4",
@@ -279,7 +281,7 @@
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true,
+            "showButtons": false,
             "columnsColor": "#475577",
             "paddingTop": 2,
             "paddingBottom": "2",
@@ -393,17 +395,18 @@
               "font-size": "30px"
             },
             ".mbr-section-subtitle": {
-              "font-size": "22px"
+              "font-size": "22px",
+              "color": "#000000"
             }
           },
           "_params": {
             "showMeta": true,
             "paddingTop": "3",
             "paddingBottom": "3",
-            "bgColor": "#5d409f"
+            "bgColor": "#1c6b76"
           },
           "title": "Download our application forms<br>below :",
-          "meta": "Company registration<br>Non-Company registration<br>Fax to mail registration<br>Company documents retrieval<br>Company name reservation \n<br>Company or Close Corporation name change<br>Non-profit company registration <br>Directors’ amendment \n<br>Domain registration<br>Central supply database\n<br>CIBD Certificate<br>Company logo<br>\nTax clearance<br><br>",
+          "meta": "<a href=\"assets/files/new company reg form.pdf\">Company registration</a><br><a href=\"assets/files/new%20company%20reg%20form.pdf\">Non-Company registration</a><br>Fax to mail registration<br><a href=\"assets/files/new company reg form.pdf\" class=\"text-black\">Company documents retrieval</a><br><a href=\"assets/files/new company reg form.pdf\">Company name reservation</a> \n<br>Company or Close Corporation name change<br>Non-profit company registration <br><a href=\"assets/files/directors%20ammendment.pdf\">Directors’ amendment</a> \n<br>Domain registration<br><a href=\"assets/files/Requirements%20for%20CSD%20registration.pdf\">Central supply database</a>\n<br>CIBD Certificate<br>Company logo<br>\n<a href=\"assets/files/Tax%20clearance.pdf\">Tax clearance</a><br><a href=\"assets/files/Annual return.pdf\">Annual returns</a><a href=\"assets/files/Tax%20clearance.pdf\"><br></a><br><br>",
           "_tags": [
             "Theme"
           ],
@@ -414,14 +417,14 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayColor": "#044f40",
+            "overlayOpacity": "0.8"
           },
           "logo": {
             "image": {
@@ -469,11 +472,11 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>",
           "title1": "Categories",
           "text1": "Contact us on the details below :",
-          "text2": "+27 73 009 7445<br>+27 76 615 6608",
+          "text2": "<a href=\"tel:+27730097445\">+27 73 009 7445</a><br><a href=\"tel:0766156608\">+27 76 615 6608</a>",
           "text3": "187 Ward 16 Khujwana Village\n<br>Tzaneen,0850",
-          "text4": "facksonmokati<a href=\"mailto:support@mokatithelegacy.co.za\">@mokatithelegacy.co</a>.za<br>info@mokatithelegacy.co.za<br>sales@mokatithelegacy.co.za<br><br>",
+          "text4": "facksonmokati<a href=\"mailto:facksonmokati@mokatithelegacy.co.za\">@mokatithelegacy.co</a>.za<br><a href=\"mailto:info@mokatithelegacy.co.za\">info@mokatithelegacy.co.za</a><br><a href=\"mailto:sales@mokatithelegacy.co.za\">sales@mokatithelegacy.co.za</a><br><br>",
           "text5": "<li><a class=\"text-white\" href=\"#\">Busines</a>s registration</li><li>Tax clearance</li><li>Domain registration</li><li>Central Supply database</li>",
-          "text6": "<strong>Contacts</strong><br>Email &nbsp; : sales@mokatithelegacy.co.za<br>Phone : +27 73 009 7445<br>Fax &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp;0 86 242 3590<br><br><br><strong>Address</strong><br>187 Ward 16 Khujwana Village<br>Tzaneen,0850",
+          "text6": "<strong>Contacts</strong><br>Email &nbsp; : <a href=\"mailto:sales@mokatithelegacy.co.za\">sales@mokatithelegacy.co.za</a><br>Phone : <a href=\"tel:0730097445\">+27 73 009 7445</a><br>Fax &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp;<a href=\"tel:0862423590\">0 86 242 3590</a><br><br><br><strong>Address</strong><br>187 Ward 16 Khujwana Village<br>Tzaneen,0850",
           "form": {
             "title": "MESSAGE",
             "action": "",
@@ -509,7 +512,7 @@
           "_anchor": "contacts3-b",
           "_styles": {
             "LI": {
-              "color": "#d9d9d9"
+              "color": "#ffffff"
             },
             "P": {
               "color": "#d9d9d9"
@@ -535,7 +538,7 @@
             "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/mokatithelegacy/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a>    ",
           "_tags": [
             "Theme"
           ],
